@@ -142,8 +142,15 @@
     border-color: var(--color-border);
   }
 
+  html, body {
+    font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-feature-settings: "cv11", "ss01", "ss03";
+    -webkit-font-smoothing: antialiased;
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    letter-spacing: -0.01em;
   }
 }
