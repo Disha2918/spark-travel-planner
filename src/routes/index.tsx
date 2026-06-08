@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "TripMind — AI travel planning, made personal" },
       { name: "description", content: "Hyper-personalized itineraries that blend your inspiration, pace, and pre-trip intel into one elegant plan." },
-      { property: "og:title", content: "Wayfare — AI travel planning, made personal" },
+      { property: "og:title", content: "TripMind — AI travel planning, made personal" },
       { property: "og:description", content: "Hyper-personalized itineraries that blend your inspiration, pace, and pre-trip intel into one elegant plan." },
     ],
   }),
