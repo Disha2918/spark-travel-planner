@@ -76,7 +76,7 @@ export function Onboarding({ onComplete }: Props) {
         <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">New trip</p>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight">Tell us how you travel.</h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          Wayfare blends your taste, pace, and budget into a private itinerary with bookable links.
+          TripMind blends your taste, pace, and budget into a private itinerary with bookable links.
         </p>
         <ol className="mt-8 space-y-1">
           {steps.map((s, i) => {

@@ -21,7 +21,7 @@ export function Shell({ step, onStepChange, children }: ShellProps) {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-foreground text-background">
               <Compass className="h-4 w-4" />
             </div>
-            <span className="text-sm font-semibold tracking-tight">Wayfare</span>
+            <span className="text-sm font-semibold tracking-tight">TripMind</span>
             <span className="ml-1 rounded-full bg-accent px-2 py-0.5 text-[10px] font-medium text-accent-foreground">
               AI
             </span>
